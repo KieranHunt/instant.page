@@ -11,10 +11,10 @@
 
 (function() {
     'use strict';
-
+    
     var scriptElement = document.createElement("script")
     scriptElement.type = "module";
-    scriptElement.src = "//instant.page/1.1.0";
-    scriptElement.integrity = "sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp";
+    scriptElement.src = "//instant.page/1.2.1";
+    scriptElement.integrity = "sha384-/IkE5iZAM/RxPto8B0nvKlMzIyCWtYocF01PbGGp1qElJuxv9J4whdWBRtzZltWn";
     document.body.appendChild(scriptElement);
 })();
