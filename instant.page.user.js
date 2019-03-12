@@ -11,7 +11,7 @@
 
 (function() {
     'use strict';
-    
+
     var scriptElement = document.createElement("script")
     scriptElement.type = "module";
     scriptElement.src = "//instant.page/1.2.1";
