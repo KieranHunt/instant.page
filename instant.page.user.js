@@ -11,10 +11,14 @@
 
 (function() {
     'use strict';
+    var instantSrc = document.getElementsByTagName("body")[0].lastChild;
 
-    var scriptElement = document.createElement("script")
+    var scriptElement = document.createElement("script");
     scriptElement.type = "module";
     scriptElement.src = "//instant.page/1.2.1";
     scriptElement.integrity = "sha384-/IkE5iZAM/RxPto8B0nvKlMzIyCWtYocF01PbGGp1qElJuxv9J4whdWBRtzZltWn";
-    document.body.appendChild(scriptElement);
+
+    if (instantSrc !== scriptElement) {
+        document.body.appendChild(scriptElement);
+    }
 })();
