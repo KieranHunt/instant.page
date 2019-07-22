@@ -15,8 +15,8 @@
 
     var scriptElement = document.createElement("script");
     scriptElement.type = "module";
-    scriptElement.src = "//instant.page/1.2.1";
-    scriptElement.integrity = "sha384-/IkE5iZAM/RxPto8B0nvKlMzIyCWtYocF01PbGGp1qElJuxv9J4whdWBRtzZltWn";
+    scriptElement.src = "//instant.page/1.2.2";
+    scriptElement.integrity = "sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU";
 
     if (instantSrc !== scriptElement) {
         document.body.appendChild(scriptElement);
