@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         instant.page
 // @namespace    casa.kieran
-// @version      0.2
+// @version      3.0.0
 // @description  Adds https://instant.page to every page
 // @author       Kieran Hunt
 // @match        https://*/*
@@ -15,8 +15,8 @@
 
     var scriptElement = document.createElement("script");
     scriptElement.type = "module";
-    scriptElement.src = "//instant.page/1.2.2";
-    scriptElement.integrity = "sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU";
+    scriptElement.src = "//instant.page/3.0.0";
+    scriptElement.integrity = "sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1";
 
     if (instantSrc !== scriptElement) {
         document.body.appendChild(scriptElement);
